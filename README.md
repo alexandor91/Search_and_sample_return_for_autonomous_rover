@@ -36,5 +36,7 @@ python drive_rover.py
 ## Navigating result
 To some extent the rover can map above 40% of the environment and the fidelity is also above 60% as the recording shows, the problem is that the pick up sequence is still not working very well, sometimes when the rock is found at first, the rover cannot stop and move closer toward the sample to implement the pick up. And at the cross of three roads, the rover is always trapped into a circular loop, this is due to the navigable angle is not so accurate,  which is just using mean value of the navigable area, and the sample is usuallly located near the mountain foot, so the rover should be further supplemented with the movement along the wall, this could be done with more detailed image process for the sample location identification. 
 **Note: The Rover simulator version is based on the x86_64 in linux environment and Grafics with the resolution of 640*480 and fast graphics quality.FPS is 30**
+![Errors between FK and IK is analysed](rock-pickup2.gif)
+
 
 
